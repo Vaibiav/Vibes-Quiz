@@ -1,0 +1,171 @@
+header {
+    background-color: #68b7d9;
+    color: rgb(0, 0, 0);
+    padding: 0.1rem;
+    box-shadow: 5px 5px 5px rgb(2, 62, 99);
+    margin: -5px;
+    width: 100%;
+}
+
+h1{
+    margin-left: 1170px;
+}
+
+#difficulty{
+    margin-left: 10px;
+    margin-top: -100px;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+}
+label{
+    margin-left: 20px;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    margin-top: 0px;
+    height: 100vh;
+    margin-left: -5px;
+    margin-top: -15px;
+    background-color: #d3f0f8;
+    justify-content: space-around;
+}
+
+.calci{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 1000px;
+}
+#calculator {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+#calci-input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#calci-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.num, #calci-equal, #calci-clear {
+    width: 48px;
+    height: 48px;
+    margin: 1px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.container {
+    background: #d1ebf1e7;
+    display: var(#0056b3);
+    width: 800px;
+    margin-top: -310px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px     rgba(0, 0, 0, 0.227);
+}
+
+h2{
+    margin-left: 300px;
+}
+
+.btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn-container {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    width: 400px;
+}
+
+#question {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.start-btn {
+    font-size: 18px;
+    margin-left: 330px;
+    padding: 10px 20px;
+}
+
+.Green{
+    border: 5px solid green;
+}
+.red{
+    border: 5px solid red;
+}
+
+.ok-btn{
+    margin-left: 710px;
+    justify-content: right;
+}
+
+footer{
+    background-color: #7409a6;
+    color: white;
+    margin: -10px;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h4{
+    margin-top: 5px;
+    margin-left: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(85, 218, 242);
+}
+
+.progress-container .progressBar{
+    height: 25px;
+    width: 350px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #a0f393;
+    margin-left: 520px;
+    margin-top: -20px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 2px 2px 5px 1px rgb(0, 0, 0);
+}
+
+.progress-container .progressBar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(76, 175, 80, 1) 50%, rgba(50, 222, 132, 1) 100%);
+    transition: width 0.5s linear;
+}

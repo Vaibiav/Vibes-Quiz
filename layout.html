@@ -3,9 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vibes Quiz</title>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="csas.css">
 </head>
 <body>
-    
+    <Header>
+        <h1>Vibes Quiz</h1>
+        <label for="Difficulty">Select Difficulty:</label>
+    <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="moderate">Moderate</option>
+        <option value="hard">Hard</option>
+    </select>
+    </Header>
+    </div>
+    <main>
+        <div class="calci"><b>Calculator:</b><br>
+            <div id="calculator">
+                <input type="text" id="calci-input" readonly>
+                <div id="calci-buttons">
+                    <button class="num" data-value="1">1</button>
+                    <button class="num" data-value="2">2</button>
+                    <button class="num" data-value="3">3</button>
+                    <button class="num" data-value="4">4</button>
+                    <button class="num" data-value="5">5</button>
+                    <button class="num" data-value="6">6</button>
+                    <button class="num" data-value="7">7</button>
+                    <button class="num" data-value="8">8</button>
+                    <button class="num" data-value="9">9</button>
+                    <button class="num" data-value="0">0</button>
+                    <button class="num" data-value="+">+</button>
+                    <button class="num" data-value="-">-</button>
+                    <button class="num" data-value="*">*</button>
+                    <button class="num" data-value="/">/</button>
+                    <button id="calci-equal">=</button>
+                    <button id="calci-clear">C</button>
+                </div>
+            </div>
+    </div>
+
+    <div class="container">
+        <h2>Quiz level: </h2>
+        <h3><div id="stopwatch">Time elapsed: <span id="time">0.0</span> seconds</div></h3>
+        
+        <div id="quiz-container">
+            <div id="question-container" class="hide">
+              <div id="question" class="questinClass">Question text</div>
+                <div id="answer-buttons" class="btn-container">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+                <button class="ok-btn btn">Next</button>
+            </div>
+            
+            <div id="start-container">
+                <button id="start-btn" class="start-btn btn">Start Quiz</button>
+            </div>
+            <div id="result-container" class="hide">
+                <h2>Your Score: <span id="score"></span>/5</h2>
+                <button id="restart-btn" class="start-btn btn">Restart Quiz</button>
+            </div>
+        </div>
+    </main>
+    <script src="js.js"></script>
 </body>
+<footer>
+        <div class="progress-container">
+          <h4>All the Best</h4>
+          <div class="progress-bar">
+            <span></span>
+          </div>
+        </div>
+</footer>
 </html>
